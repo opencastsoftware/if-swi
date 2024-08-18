@@ -1,5 +1,7 @@
 # swi - Software Water intensity
 
+![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)
+
 `swi` is a plugin that can output the Software Water Intensity value
 
 ## Parameters
