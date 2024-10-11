@@ -1,4 +1,4 @@
-const TIME_UNITS_IN_SECONDS = {
+export const TIME_UNITS_IN_SECONDS = {
     s: 1,
     second: 1,
     sec: 1,
@@ -38,6 +38,7 @@ const TIME_UNITS_IN_SECONDS = {
     year: 31536000,
     years: 31536000,
   };
-
-
-  module.exports = { TIME_UNITS_IN_SECONDS }
+  
+  // Export in TypeScript
+  //export { TIME_UNITS_IN_SECONDS };
+  
