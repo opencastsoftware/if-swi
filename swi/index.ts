@@ -1,19 +1,18 @@
 import { TIME_UNITS_IN_SECONDS } from './config';
 
-// Define the types for the input and config
 interface Input {
   'water-cloud': number;
   'water-power': number;
   'functional-unit'?: number;
-  duration?: number; // assuming this is part of the input
+  duration?: number; 
 }
 
 interface Output extends Input {
-  swi: number; // Extend Input with swi field for the result
+  swi: number;
 }
 interface Config {
   'functional-unit': string;
-  'functional-unit-time'?: string; // assuming this is optional
+  'functional-unit-time'?: string;
 }
 
 const SWI = (globalConfig: Config) => {
